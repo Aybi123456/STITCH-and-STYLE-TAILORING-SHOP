@@ -1,0 +1,123 @@
+<html>
+    <title>VIRTUAL CASHIER</title>
+    <link rel="stylesheet" href="Style/Virtual_Style.css">
+    <script src="Script/Virtual_Script.js" defer></script>
+</head>
+<body>
+	<nav>
+	<a href="HOME.html"><img src="Images/home.png" width="30" height="30" alt="Clickable Image"></a>
+	</nav>
+
+    <!-- Sidebar -->
+    <button class="openbtn" data-open>💰 Initial Amount</button>
+    <div data-sidebar class="register__cash__sidebar">
+        <button class="closebtn" data-close>❌</button>
+        <form action="#" class="register__cash__form" data-cash-init-form>
+            <h3>Initial Amount</h3>
+            <fieldset>
+                <input type="text" value="0" data-cash-init-value required>
+            </fieldset>
+            <button type="submit" data-cash-init-submit>Register</button>
+            <a href="#" class="reset" data-cash-init-clear>Modify Initial Amount</a>
+            <button class="reset__register" data-register-reset>⚠️ Reset Cash Register</button>
+        </form>
+    </div>
+
+    <!--main content grid -->
+    <div class="container__grid">
+        <div class="entries__container">
+            <h4>Entries (<span data-entries-count>0</span>)</h4>
+            <div class="entries" data-entries></div>
+        </div>
+        <div class="summary__container"> 
+            <div class="summary__copy" title="Copy Register Summary to clipboard" data-copy-btn><br>📋</div>
+            <h4>Summary <span data-date></span></h4>
+            <div class="entries" data-area-clipboard>
+                <strong>TRANSACTIONS</strong><br>
+                <span class="darkyellow__text">Initial Amount &raquo;&raquo; <span data-init-value>0.00</span></span><br>
+                Suit &raquo;&raquo; <span data-suit-total>1,500.00</span><br>
+                Dress code_#01 &raquo;&raquo; <span data-Dress-total>2,264.00</span><br>
+				Dress code_#02 &raquo;&raquo; <span data-Dress-total>1,369.00</span><br>
+				Dress code_#03,04 &raquo;&raquo; <span data-Dress-total>2,264.00</span><br>
+				Dress code_#05 &raquo;&raquo; <span data-Dress-total> 2,300.00</span><br>
+				Gown code_#01 &raquo;&raquo; <span data-Dress-total> 7,264.00</span><br>
+				Gown code_#02 &raquo;&raquo; <span data-Dress-total> 7,000.00</span><br> 
+				Gown code_#03 &raquo;&raquo; <span data-Dress-total> 8,000.00</span><br>
+			
+                Adults_Costume &raquo;&raquo; <span data-Adults_Costume-total>800.00</span><br>
+                kids_Costume &raquo;&raquo; <span data-kids_Costume -total>700.00</span><br>
+                <span class="Money-In">Money-In &raquo;&raquo; <span data-money-in-total>0.00</span></span><br>
+                <span class="Money-Out">Money-Out &raquo;&raquo; <span data-money-out-total>0.00</span></span><br>
+                <span class="Void">Void &raquo;&raquo; <span data-voids-total>0.00</span></span><br>
+                <strong>PAYMENT METHODS</strong><br>
+                Cash &raquo;&raquo; <span data-payment-cash-total>0.00</span><br>
+                Check &raquo;&raquo; <span data-payment-check-total>0.00</span><br>
+                Card &raquo;&raquo; <span data-payment-card-total>0.00</span><br>
+                <strong>GRAND TOTAL</strong><br>
+                <span class="Money-InBold">Total &raquo;&raquo; £ <span data-grand-total>0.00</span></span>
+            </div>
+        </div>
+        <div class="header">
+            <img class="logo" src="Images/LOGO.png" alt="Logo">
+        </div>
+        <div class="screen" data-display>
+            <button class="screen__reset hidden" data-restart>Restart 🔄</button>
+            <button class="screen__cancel hidden" data-cancel>Cancel ❌</button>
+            <div class="screen__top" data-prev-operation></div>
+            <div class="screen__bottom" data-curr-operation></div>
+        </div>
+        <div class="keypad">
+            <div class="keypad__left">
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-number>0</button>
+                <button data-number>.</button>
+                <button class="lightgray" data-delete>DEL</button>
+            </div>
+            <div class="keypad__right">
+                <!-- Changing data-entry references here will break the summary and entries -->
+                <!-- be sure to match the reference names in script.js render functions too -->
+				<button class="lightblue" data-operation="tp" data-entry="Suit" data-class="lightblue">Suit</button>
+                <button class="lightyellow" data-operation="tp" data-entry="Dress" data-class="lightyellow">Dress code_#01 </button>
+				<button class="lightblue" data-operation="tp" data-entry="Gowns" data-class="lightblue">Gown code_#02 </button>
+				
+				<button class="lightyellow" data-operation="tp" data-entry="Dress" data-class="lightyellow">Dress code_#03 </button>
+				<button class="lightblue" data-operation="tp" data-entry="Gowns" data-class="lightblue">Gown code_#01 </button>
+	
+              
+				<button class="lightyellow" data-operation="tp" data-entry="Dress" data-class="lightyellow">Dress code_#02 </button>
+				<button class="lightblue" data-operation="tp" data-entry="Gowns" data-class="lightblue">Gown code_#03 </button>
+				<button class="lightyellow" data-operation="tp" data-entry="Dress" data-class="lightyellow">Dress code_#04 </button>
+			
+				<button class="lightblue" data-operation="tp" data-entry="Kids_Costume" data-class="lightblue">Kids_Costume</button>
+                <button class="lightyellow" data-operation="tp" data-entry="Adults_Costume" data-class="lightyellow">Adults_Costume </button>
+				 <button class="lightgreen" data-operation="tp" data-entry="Money-In" data-class="lightgreen">Money-In</button>
+                <button class="lightyellow" data-operation="tp" data-entry="baby's_Costume" data-class="lightyellow">Baby's_Costume</button>
+				
+               
+                <button class="lightred" data-operation="tn" data-entry="Money-Out" data-class="lightred">Money-Out</button>
+                <button class="lightred" data-void data-entry="Void" data-class="lightred">Void</button>
+            </div>
+        </div>
+		<!--Methods-->
+        <div class="keypad__options">
+            <div class="keypad__options__left">
+                <h4 class="span-3">Payment Methods</h4>
+                <button class="darkgreen" data-payment="pm" data-entry="Cash" disabled>💸</button>
+                <button class="darkgreen" data-payment="pm" data-entry="Check" disabled>CH</button>
+                <button class="darkgreen" data-payment="pm" data-entry="Card" disabled>💳</button>
+            </div>
+            <div class="keypad__options__right">
+                <button class="span-2 enter" data-enter disabled>ENTER</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

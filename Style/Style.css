@@ -1,0 +1,427 @@
+    header {
+		
+		background-color: #290C0C;
+		color: #D8B56E;
+		height: 170;
+		width:1520;
+		font-family:  "Courier New";
+	}
+/* body*/
+	body {
+		font-family: "Courier New";
+		background-color: #D8B56E;
+		text-align: center;
+		color: #290C0C;
+		margin: 0;
+		padding: 0;
+    }
+	#Categories {
+		padding-top:0;
+		height:30;
+		width:1450;
+		background-color:#290C0C;
+		color:#D8B56E;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+	}
+	#Home{
+		text-align: center;
+		margin:150px;
+	}
+	#dresses {
+		color:#D8B56E;
+		background-color:#290C0C;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;	
+		max-width: 300px;
+		height: 330px;
+		position: relative;
+		right: -20px;
+	}
+	
+	#suit {
+		
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 300px;
+		height: 330px;
+		position: relative;
+		right: -20px;	
+	}
+	#Gowns {
+		
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 300px;
+		height: 330px;
+		position: relative;
+		right: -20px;	
+	}
+	#costume {
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 300px;
+		height: 330px;
+		position: relative;
+		right: -20px;	
+	}
+	#kids {
+		
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 300px;
+		height: 330px;
+		position: relative;
+		right: -20px;	
+	}
+	#baby {
+		
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 300px;
+		height: 330px;
+		position: relative;
+		right: -20px;	
+	}
+	/*Product*/
+	#product{
+		margin:20 px;
+		text-align: center;
+	}
+	
+	#dresses1 {
+		color:#D8B56E;
+		background-color:#290C0C;
+		padding: 20px;
+		font-size: 15;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;	
+		max-width: 290px;
+		height: 390px;
+		position: relative;
+		top: -10px;
+		right: -20px;
+	}
+	
+	#Gown1 {
+		color:#D8B56E;
+		background-color:#290C0C;
+		padding: 20px;
+		font-size: 15;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;	
+		max-width: 290px;
+		height: 390px;
+		position: relative;
+		top: -10px;
+		right: -20px;
+	}
+	#suit1 {
+		
+		color:#D8B56E;
+		background-color:#290C0C;
+		padding: 20px;
+		font-size: 15;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;	
+		max-width: 290px;
+		height: 390px;
+		position: relative;
+		top: -10px;
+		right: -20px;	
+	}
+	#Costume1 {
+		color:#D8B56E;
+		background-color:#290C0C;
+		padding: 20px;
+		font-size: 15;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;	
+		max-width: 300px;
+		height: 390px;
+		position: relative;
+		top: -10px;
+		right: -20px;
+	}
+	#About_Us{
+		height:auto;
+		width:1450;
+		background-color:#290C0C;
+		color:#D8B56E;
+		flex: 1;
+		margin: 0 10px;
+		padding: 20px;
+		border: 3px solid #fff;
+		border-radius: 10px;	
+		font-size: 140%;
+		text-align: center;
+		position: relative;	
+		}
+	form {
+		padding: 20px;
+		text-align: left;
+		
+  }
+/*Navigation*/
+    	nav {
+		text-align: center;
+		overflow: hidden;		
+		font-size: 25;		
+		} 
+		nav a {
+		text-decoration: none;
+		color: #290C0C;
+		padding: 10px;
+		float: center;
+        }
+        nav a:hover {
+        color: #fff;
+        }
+    section {
+		padding: 20px;
+		margin: 20px;
+		text-align: left;
+		}
+/*Log-in*/
+#log-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+	color: #D8B56E;
+    font-family: "Courier New" ;
+    font-size: 100%;
+	background-image: url("Images/tailoring.jpg"); 
+  }
+  form {
+    width: 20%;
+    padding: 20px;
+    border: 4px solid #D8B56E;
+    border-radius: 8px;
+	background-color: #290C0C;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+	background-color: #FFFFF0;
+	border: 3px solid #D8B56E;
+	border-radius: 8px;	
+	color: #290C0C;
+  }
+  input[type="submit"]{
+    background-color:#D8B56E;
+    color: #290C0C;
+    cursor: pointer;
+  }
+  input[type="button"]{
+    background-color: #D8B56E;
+    color: #290C0C;
+    cursor: pointer;
+  }
+  #Logo{
+    height: 70px;
+    width: 150px;
+	
+  }
+/*sidebar*/
+	.sidebar {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #290C0C;
+		overflow-x: hidden;
+		}
+	.sidebar a {
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		text-align:left;
+		font-size: 120%;
+		color:#D8B56E;
+		display: block;
+		}
+	.sidebar a:hover {
+		color: #fff;
+		}
+	.sidebar .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 30px;
+}
+	.menuIcons {
+		color: #D8B56E;
+		font-size: 130%;
+		cursor: pointer;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+	}
+	.shopping-cart {
+        
+		height: 30;
+		width: 30;
+		position: absolute;
+		top: 35px;
+		left: 1470px;
+		transform: translateY(-50%);
+		font-size: 30px;
+		cursor: pointer;
+       }
+		
+	/*Service Offered*/
+	.image-container {
+         display: flex;
+         align-items: flex-start;}
+    .text {
+         margin-left: 10px;}
+		 
+	#service{
+	text-align: center;
+	
+	}
+	#Custom-Tailoring{
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 600px;
+		height: 330px;
+		position: relative;
+		right: -80px;
+	}
+	#Alterations{
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 600px;
+		height: 330px;
+		position: relative;
+		right: -80px;
+	}
+	#Restyling{
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 600px;
+		height: 330px;
+		position: relative;
+		right: -80px;
+	}
+	#Repairs{
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 600px;
+		height: 330px;
+		position: relative;
+		right: -80px;
+	}
+	#Bridal-Services{
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 600px;
+		height: 330px;
+		position: relative;
+		right: -80px;
+	}
+	#Made-to-Measure{
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 600px;
+		height: 330px;
+		position: relative;
+		right: -80px;
+	}
+	#Personal-Consultations{
+		background-color:#290C0C;
+		color:#D8B56E;
+		padding: 20px;
+		text-align: center;
+		border: 3px solid #fff;
+		border-radius: 10px;
+		max-width: 600px;
+		height: 330px;
+		position: relative;
+		right: -80px;
+	}
+/*footer*/
+	#Develop{
+		color: #D8B56E;
+		border-spacing: 0px;
+		width:900;
+		font-size: 15;
+		text-align: center;
+		padding-top:10;		
+	
+	}
+    footer{
+		background:#290C0C;
+		color: #D8B56E;
+		padding: 5px;
+		height: auto;
+		width: 1520;
+		text-align: center;
+		font-family: "Courier New";
+    }
+	.footer-bottom{
+		background:#200909;
+		width: auto;
+		padding: 5px 0;
+		text-align: center;
+		
